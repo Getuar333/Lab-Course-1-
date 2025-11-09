@@ -35,9 +35,9 @@ const CreditCard = () => {
           <label className="block font-semibold text-gray-600 mb-1">Card information</label>
           <div className="relative"></div>
            <input type="text" required className="w-full border border-gray-300 rounded px-3 py-1 pr-14" placeholder="1234 1234 1234 1234"/>
-           <img src={moneyImages} alt="Money" className="absolute right-128 top-/3 transform -translate-y-2/2 w-8 h-8"/>
-           <img src={payImages} alt="Paypal" className="absolute right-138 top-/3 transform -translate-y-2/2 w-8 h-8"/>
-           <img src={masTCardImages} alt="MasterCard" className="absolute right-148 top-/3 transform -translate-y-2/2 w-8 h-8"/>
+           <img src={moneyImages} alt="Money" className="absolute right-150 top-/3 transform -translate-y-2/2 w-8 h-8"/>
+           <img src={payImages} alt="Paypal" className="absolute right-160 top-/3 transform -translate-y-2/2 w-8 h-8"/>
+           <img src={masTCardImages} alt="MasterCard" className="absolute right-170 top-/3 transform -translate-y-2/2 w-8 h-8"/>
           </div>
 
         <div className="mb-4 grid grid-cols-2 gap-4">
@@ -45,8 +45,8 @@ const CreditCard = () => {
             <input type="text" required className="w-full border border-gray-300 rounded px-3 py-2 pt-3 " placeholder="MM / YY"/>
           </div>
           <div>
-            <input type="text" required className="w-full border border-gray-300 rounded px-3 py-2 pt-3" placeholder="CVC "/>
-            <img src={creditCImages} alt="CreditCard" className="absolute right-128 top-/3 transform -translate-y-2/2 w-8 h-11"/>
+            <input type="text" required className="w-full border border-gray-300 rounded px-4 py-2 pt-3" placeholder="CVC "/>
+            <img src={creditCImages} alt="CreditCard" className="absolute right-150 top-/3 transform -translate-y-2/2 w-8 h-11"/>
           </div>
         </div>
 
