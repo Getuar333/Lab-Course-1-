@@ -8,7 +8,7 @@ const RrethNesh = () => {
     {name: 'Email', url: 'https://mail.info@kombetarja-ffk.com'},
   ];
   return(
-    <div className="h-[93.33vh] overflow-hidden flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-300 px-4 text-center">
+    <div className="h-[93.99vh] overflow-hidden flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-300 px-4 text-center">
       <div className="border border-green-800 rounded-4xl p-10 shadow-lg hover:shadow-xl transition-all duration-200 min-w-x1">
         <h1 className="text-3xl font-bold mb-4 text-blue-950 hover:text-green-600 hover:scale-105 transition duration-300">Të gjitha informatat rrethë platformes sonë!</h1>
         <p className="max-w-3xl text-lg text-blue-900 hover:text-green-600 transition-all duration-300"> Ne jemi të përkushtuar në promovimin e futbollit tonë kombëtar!<br/> 
